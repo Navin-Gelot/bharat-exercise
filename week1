@@ -1,0 +1,37 @@
+
+Task: 1
+
+ 1. create a table with 5 rows:
+ - student: 
+ 	- rno | Name
+	- 1   | karan
+	- 2   | karan
+	- 3   | karan
+	- 4   | karan
+	- 5   | karan
+
+ 2. access all tr by tags. HINT: <tr>
+ 3. set color = 'red' for odd rows
+ 4. set color = 'green' for even rows
+
+
+Task: 2
+
+ 1. create a 5 h1 elements.
+ 2. store some value using getElementById and innerHtml in all 5 elements.
+ 3. print all element in differenet color using style.
+
+ Task: 3
+
+- Log in to hackerrank.
+- https://www.hackerrank.com/7days-javascript
+
+Task: 4
+
+read and practice chapter - 9.
+
+- https://exploringjs.com/es6/ch_variables.html
+
+Task 5
+
+- watch and learn  CSS and HTML video from UDEMY.

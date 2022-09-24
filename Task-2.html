@@ -1,12 +1,68 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>Task 1</title>
-	<script type="text/javascript">
-	</script>
-</head>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <script type="text/javascript">
+    function checkNumberIsPrime(number) {
+      let prime = true;
+      for (let i = 2; i < number; i++) {
+        if (number % i === 0) {
+          prime = false;
+          break;
+        }
+      }
+      return prime;
+    }
 
-<body>
+    function printFirst50PrimeNumber() {
+      for (let i = 1; i < 50; i++) {
+        let isPrime = checkNumberIsPrime(i);
+        if (isPrime) {
+          console.log(i);
+        }
+      }
+    }
 
-</body>
+    function addColorToH1() {
+      let harray = document.getElementsByTagName("h1");
+      for (let j = 0; j < harray.length; j++) {
+        let item = harray[j];
+        let prime = checkNumberIsPrime(j);
+
+        if (prime) {
+          item.style.color = "green";
+        } else {
+          item.style.color = "pink";
+        }
+      }
+    }
+  </script>
+
+  <body onload="printFirst50PrimeNumber()">
+    <h1>1</h1>
+    <h1>2</h1>
+    <h1>3</h1>
+    <h1>4</h1>
+    <h1>5</h1>
+    <h1>6</h1>
+    <h1>7</h1>
+    <h1>8</h1>
+    <h1>9</h1>
+    <h1>10</h1>
+    <h1>11</h1>
+    <h1>12</h1>
+    <h1>13</h1>
+    <h1>14</h1>
+    <h1>15</h1>
+    <h1>16</h1>
+    <h1>17</h1>
+    <h1>18</h1>
+    <h1>19</h1>
+    <h1>20</h1>
+    <h1>21</h1>
+  </body>
 </html>

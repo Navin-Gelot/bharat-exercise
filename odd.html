@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Task 1</title>
+
+    <script type="text/javascript">
+      function performOddEven() {
+        let h1Elements = document.getElementsByTagName("h1");
+        h1Elements[1].style.color = "red";
+
+        let number = 5;
+        if (number % 2 == 0) {
+          console.log("number is even");
+        } else {
+          console.log("number is odd");
+        }
+      }
+    </script>
+  </head>
+
+  <body onload="performOddEven()">
+    <h1>navin1</h1>
+    <h1>navin2</h1>
+    <h1>navin3</h1>
+    <h1>navin4</h1>
+    <h1>navin5</h1>
+  </body>
+</html>
